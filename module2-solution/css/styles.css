@@ -23,8 +23,8 @@ p {
 
 span {
 	position: absolute;
-	top: 0px;
-	right: 0px;
+	top: -1px;
+	right: -1px;
 	padding: 3px 50px;
 	font-size: 125%;
 	border: 1px solid black;
