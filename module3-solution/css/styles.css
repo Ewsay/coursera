@@ -1,0 +1,99 @@
+body {
+	font-family: Lato;
+}
+
+
+.container-fluid > div {
+	background-color: #999;
+}
+
+
+h3 {
+	padding-top: 8px;
+}
+
+
+nav.navbar {
+	background-color: #999;
+	border-color: black;
+	border-width: 2px 0px 2px;
+	border-radius: 0;
+}
+
+
+div.navbar-header {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+
+a.navbar-brand {	
+	color: black;
+	font-size: 200%;
+	margin-left: 20px;
+}
+
+
+h2 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+.navbar-toggle .icon-bar {
+	background-color: black;
+	margin-right: auto;
+	margin-left: auto;
+	width: 35px;
+    height: 5px;
+}
+
+
+.navbar-toggle:focus {
+	border-color: #eee;
+}
+
+
+.navbar-toggle:focus > .icon-bar {
+	background-color: #eee;
+}
+
+
+button.navbar-toggle {
+	margin-top: 5px;
+	height: 40px;
+	padding: 5px 3px;
+	border: 2px solid black;
+}
+
+
+.section {
+	margin: 0 15px 50px;
+}
+
+
+.nav {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+.navbar-nav>li>a {
+	font-size: 125%;
+	padding: 5px;
+	color: #000;
+	background-color: #fff;
+	border: 2px solid black;
+}
+
+
+@media (max-width: 767px) {
+	.container-fluid > div {
+		margin-left: 5%;
+		margin-right: 5%; 
+	}
+
+	h2 {
+		margin-bottom: 10px;
+	}
+}
