@@ -85,15 +85,3 @@ button.navbar-toggle {
 	background-color: #fff;
 	border: 2px solid black;
 }
-
-
-@media (max-width: 767px) {
-	.container-fluid > div {
-		margin-left: 5%;
-		margin-right: 5%; 
-	}
-
-	h2 {
-		margin-bottom: 10px;
-	}
-}
